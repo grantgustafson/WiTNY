@@ -1,0 +1,143 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 70rem;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  text-align: center;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+#routes {
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.routeHeaderColor006CB7 {
+  border-bottom: 5px solid #006CB7;
+}
+.stopsOnRouteColor006CB7 {
+  background-color: #006CB7;
+}
+.stopsOnRouteColor006CB7 li.middle {
+  background-image: url('images/stop_on_route_mobile_middle.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.stopsOnRouteColor006CB7 li.start {
+  background-image: url('images/stop_on_route_mobile_start.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.stopsOnRouteColor006CB7 li.end {
+  background-image: url('images/stop_on_route_mobile_end.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.arrivalsOnRoute {
+  background-color: #FFFFFF;
+}
+
+.stopsOnRoute {
+  margin-left: .25em;
+}
+
+.stopsOnRoute li {
+  padding: 0;
+  margin: 0;
+  padding: .3em;
+  padding-left: 20px;
+  line-height: 1.3em;
+}
+
+.arrivalsOnRoute li {
+  margin-left: 10px;
+  padding-left: 16px;
+  background-image: url('images/bullet_bus.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  white-space: nowrap;
+  display: inline;
+}
+
+.arrivalsOnRoute {
+  display: inline;
+  zoom: 1;  /* hasLayout fix for IE */
+}
+
+.arrivalsAtStop li {
+  margin-left: 10px;
+  padding-left: 16px;
+  background-image: url('images/bullet_bus.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  zoom: 1;   /* hasLayout fix for IE */
+  line-height: 1.2em;
+}
+
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+li {
+  list-style: none;
+  display: list-item;
+}
+
+#map{
+  height: 500px;
+  width: 100%;
+}
