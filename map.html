@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Survey</title>
+    <title>Map</title>
 
     <link href="style.css" rel="stylesheet">
     <script src="map.js"></script>
@@ -17,45 +17,28 @@
 
   <body>
 
-    <div class="collapse bg-inverse" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-          </div>
-          <div class="col-sm-4 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Follow on Twitter</a></li>
-              <li><a href="#" class="text-white">Like on Facebook</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-inverse bg-inverse">
-      <div class="container d-flex justify-content-between">
-        <a href="index.html" class="navbar-brand">Back to Main Page</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
+    
 
 
-
+      <div class="kiosk">
+      <div class="album">
       <div class="container">
 
         <!-- <iframe width="1200" height="800" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=15&center=40.7107%2C-73.9970&key=AIzaSyDMQVD2Ko1dO5F1nQLvbqtXhMf2eucq_4A" allowfullscreen></iframe> -->
-
+        <a href="main.html"><button type="button"class="btn btn-secondary btn-lg">Back to Main</button></a>
         <div id="map"></div>
+        <script src="data.js"></script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRkzArJiFME_OeCHFK2tWZgT6LG9lvQc&callback=initMap">
         </script>
-        
 
+        <div class="icons">
+        <img src="images/phone.ico" />
+        <img src="images/email.png" />
+        <img src="images/printer.png" />
+        </div>
+      </div>
+      </div>
       </div>
    
 

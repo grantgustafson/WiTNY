@@ -1,5 +1,20 @@
 body {
-  min-height: 75rem; /* Can be removed; just added for demo purposes */
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+}
+
+.album {
+  padding: 0;
+  margin: 0;
+}
+
+.nospace {
+  padding: 0;
+  margin: 0;
+}
+
+#nospace {
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
@@ -26,7 +41,6 @@ body {
 }
 
 .album {
-  min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
@@ -138,6 +152,34 @@ li {
 }
 
 #map{
-  height: 500px;
+  height: 650px;
   width: 100%;
+}
+
+.kiosk {
+  background-color: black;
+  padding: 90px;
+  min-height: 800px;
+}
+
+.rect {
+  min-height: 600px;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.icons img {
+  width: 150px;
+}
+
+.row {
+  align: center;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  float: none;
 }
